@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Schoolbook", sans-serif;
+    zoom: 100%;
+}
+
+/*debut en tete : SAYNA LOGO*/
+
+header{
+    background: white;
+    border: 2px solid white;
+}
+
+#logoSayna{
+    width: 150px;
+}
+
+.logo{
+    margin: 10px 0 0 60px;
+    width: max-content;
+    border-radius: 50%;
+    box-shadow: -1px 2px 1px;
+}
+
+#todolist{
+    margin: 20px 0 50px 50px;
+}
+
+/*Fin en tete : SAYNA LOGO*/
+
+
+/*debut du corps du site*/
+.ajout{
+    background: white;
+    margin: 0 auto;
+    width: 90vw;
+    height: max-content;
+}
+
+#title{
+    border-bottom: 1px solid black;
+}
+
+.formulaire{
+    margin: 20px 0 0 0;
+    font-size: 1.5rem;
+}
+
+.check{
+    width: 35px;
+    height: 35px;
+}
+
+.formBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+.icone{
+    visibility: hidden;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.icone div{
+    cursor: pointer;
+}
+
+
+/*fin du corps du site*/
+
+
+
+/* debut css pour le hover des boutons*/
+
+.hover{
+    visibility: visible;
+}
+
+.bg{
+    background-color: papayawhip;
+}
+
+/*Formulaire d'ajout */
+
+.formulaireAjout{
+    width: 95vw;
+    display: inline-flex;
+
+}
+
+.formAjout{
+    width: 85%;
+    height: 40px;
+    font-size: 2rem;
+}
+
+#btnOk{
+    font-size: 20px;
+    height: 40px;
+    padding: 5px;
+    background-color: royalblue;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+
+
+/*Mon footer*/
+    footer{
+        text-align: center;
+        margin-top: 350px ;
+        background-color: white;
+        padding: 22px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+/*Media query*/
+
+@media screen and (max-width: 500px) {
+
+    /*debut du corps du site*/
+    .ajout{
+        background: white;
+        margin: 0 auto;
+        width: 98vw;
+        height: max-content;
+    }
+
+    #title{
+        border-bottom: 1px solid black;
+    }
+
+    .formulaire{
+        margin: 20px 0 0 0;
+        font-size: 1rem;
+    }
+
+    .check{
+        width: 15px;
+        height: 15px;
+    }
+
+    .formBox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .form{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 0 30px;
+    }
+
+    .icone{
+        visibility: hidden;
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icone div{
+        cursor: pointer;
+    }
+
+
+    /* debut css pour le hover des boutons*/
+
+    .hover{
+        visibility: visible;
+    }
+
+    .bg{
+        background-color: papayawhip;
+    }
+
+    /* fin css pour le hover des boutons*/
+
+
+}
